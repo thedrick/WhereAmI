@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A82CCF17D53FE100ED10CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A82CCE17D53FE100ED10CF /* UIKit.framework */; };
+		25A82CD117D53FE100ED10CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A82CD017D53FE100ED10CF /* Foundation.framework */; };
+		25A82CD317D53FE100ED10CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A82CD217D53FE100ED10CF /* CoreGraphics.framework */; };
+		25A82CD917D53FE100ED10CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A82CD717D53FE100ED10CF /* InfoPlist.strings */; };
+		25A82CDB17D53FE100ED10CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A82CDA17D53FE100ED10CF /* main.m */; };
+		25A82CDF17D53FE100ED10CF /* WAIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A82CDE17D53FE100ED10CF /* WAIAppDelegate.m */; };
+		25A82CE117D53FE100ED10CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A82CE017D53FE100ED10CF /* Default.png */; };
+		25A82CE317D53FE100ED10CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A82CE217D53FE100ED10CF /* Default@2x.png */; };
+		25A82CE517D53FE100ED10CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A82CE417D53FE100ED10CF /* Default-568h@2x.png */; };
+		25A82CE817D53FE100ED10CF /* WAIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A82CE717D53FE100ED10CF /* WAIViewController.m */; };
+		25A82CEB17D53FE100ED10CF /* WAIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A82CE917D53FE100ED10CF /* WAIViewController.xib */; };
+		25A82CF217D540D200ED10CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A82CF117D540D200ED10CF /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25A82CCB17D53FE100ED10CF /* WhereAmI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A82CCE17D53FE100ED10CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25A82CD017D53FE100ED10CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A82CD217D53FE100ED10CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25A82CD617D53FE100ED10CF /* WhereAmI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhereAmI-Info.plist"; sourceTree = "<group>"; };
+		25A82CD817D53FE100ED10CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A82CDA17D53FE100ED10CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A82CDC17D53FE100ED10CF /* WhereAmI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereAmI-Prefix.pch"; sourceTree = "<group>"; };
+		25A82CDD17D53FE100ED10CF /* WAIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIAppDelegate.h; sourceTree = "<group>"; };
+		25A82CDE17D53FE100ED10CF /* WAIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIAppDelegate.m; sourceTree = "<group>"; };
+		25A82CE017D53FE100ED10CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25A82CE217D53FE100ED10CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25A82CE417D53FE100ED10CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25A82CE617D53FE100ED10CF /* WAIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIViewController.h; sourceTree = "<group>"; };
+		25A82CE717D53FE100ED10CF /* WAIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIViewController.m; sourceTree = "<group>"; };
+		25A82CEA17D53FE100ED10CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WAIViewController.xib; sourceTree = "<group>"; };
+		25A82CF117D540D200ED10CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A82CC817D53FE100ED10CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A82CF217D540D200ED10CF /* CoreLocation.framework in Frameworks */,
+				25A82CCF17D53FE100ED10CF /* UIKit.framework in Frameworks */,
+				25A82CD117D53FE100ED10CF /* Foundation.framework in Frameworks */,
+				25A82CD317D53FE100ED10CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A82CC217D53FE100ED10CF = {
+			isa = PBXGroup;
+			children = (
+				25A82CD417D53FE100ED10CF /* WhereAmI */,
+				25A82CCD17D53FE100ED10CF /* Frameworks */,
+				25A82CCC17D53FE100ED10CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A82CCC17D53FE100ED10CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A82CCB17D53FE100ED10CF /* WhereAmI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A82CCD17D53FE100ED10CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A82CF117D540D200ED10CF /* CoreLocation.framework */,
+				25A82CCE17D53FE100ED10CF /* UIKit.framework */,
+				25A82CD017D53FE100ED10CF /* Foundation.framework */,
+				25A82CD217D53FE100ED10CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A82CD417D53FE100ED10CF /* WhereAmI */ = {
+			isa = PBXGroup;
+			children = (
+				25A82CDD17D53FE100ED10CF /* WAIAppDelegate.h */,
+				25A82CDE17D53FE100ED10CF /* WAIAppDelegate.m */,
+				25A82CE617D53FE100ED10CF /* WAIViewController.h */,
+				25A82CE717D53FE100ED10CF /* WAIViewController.m */,
+				25A82CE917D53FE100ED10CF /* WAIViewController.xib */,
+				25A82CD517D53FE100ED10CF /* Supporting Files */,
+			);
+			path = WhereAmI;
+			sourceTree = "<group>";
+		};
+		25A82CD517D53FE100ED10CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A82CD617D53FE100ED10CF /* WhereAmI-Info.plist */,
+				25A82CD717D53FE100ED10CF /* InfoPlist.strings */,
+				25A82CDA17D53FE100ED10CF /* main.m */,
+				25A82CDC17D53FE100ED10CF /* WhereAmI-Prefix.pch */,
+				25A82CE017D53FE100ED10CF /* Default.png */,
+				25A82CE217D53FE100ED10CF /* Default@2x.png */,
+				25A82CE417D53FE100ED10CF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A82CCA17D53FE100ED10CF /* WhereAmI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A82CEE17D53FE100ED10CF /* Build configuration list for PBXNativeTarget "WhereAmI" */;
+			buildPhases = (
+				25A82CC717D53FE100ED10CF /* Sources */,
+				25A82CC817D53FE100ED10CF /* Frameworks */,
+				25A82CC917D53FE100ED10CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereAmI;
+			productName = WhereAmI;
+			productReference = 25A82CCB17D53FE100ED10CF /* WhereAmI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A82CC317D53FE100ED10CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WAI;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hedrick.tyler;
+			};
+			buildConfigurationList = 25A82CC617D53FE100ED10CF /* Build configuration list for PBXProject "WhereAmI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25A82CC217D53FE100ED10CF;
+			productRefGroup = 25A82CCC17D53FE100ED10CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A82CCA17D53FE100ED10CF /* WhereAmI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A82CC917D53FE100ED10CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A82CD917D53FE100ED10CF /* InfoPlist.strings in Resources */,
+				25A82CE117D53FE100ED10CF /* Default.png in Resources */,
+				25A82CE317D53FE100ED10CF /* Default@2x.png in Resources */,
+				25A82CE517D53FE100ED10CF /* Default-568h@2x.png in Resources */,
+				25A82CEB17D53FE100ED10CF /* WAIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A82CC717D53FE100ED10CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A82CDB17D53FE100ED10CF /* main.m in Sources */,
+				25A82CDF17D53FE100ED10CF /* WAIAppDelegate.m in Sources */,
+				25A82CE817D53FE100ED10CF /* WAIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25A82CD717D53FE100ED10CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A82CD817D53FE100ED10CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25A82CE917D53FE100ED10CF /* WAIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A82CEA17D53FE100ED10CF /* en */,
+			);
+			name = WAIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A82CEC17D53FE100ED10CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A82CED17D53FE100ED10CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A82CEF17D53FE100ED10CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhereAmI/WhereAmI-Prefix.pch";
+				INFOPLIST_FILE = "WhereAmI/WhereAmI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25A82CF017D53FE100ED10CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhereAmI/WhereAmI-Prefix.pch";
+				INFOPLIST_FILE = "WhereAmI/WhereAmI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A82CC617D53FE100ED10CF /* Build configuration list for PBXProject "WhereAmI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A82CEC17D53FE100ED10CF /* Debug */,
+				25A82CED17D53FE100ED10CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A82CEE17D53FE100ED10CF /* Build configuration list for PBXNativeTarget "WhereAmI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A82CEF17D53FE100ED10CF /* Debug */,
+				25A82CF017D53FE100ED10CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A82CC317D53FE100ED10CF /* Project object */;
+}
